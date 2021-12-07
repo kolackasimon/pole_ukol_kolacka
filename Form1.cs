@@ -59,7 +59,7 @@ namespace pole_ukol_kolacka
             pole = new int[vstup];
             for (int i = 0; i < pole.Length; i++)
             {
-                pole[i] = rnd.Next(1, 51);
+                pole[i] = rnd.Next(1, 50);
                 listBox1.Items.Add(pole[i].ToString());
             }
             if (radioButtonSestupne.Checked)
